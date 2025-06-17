@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f5f7fa;
+  color: #333;
+}
+
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  padding: 40px 0;
+}
+
+.hero {
+  background: linear-gradient(to right, #3a1c71, #d76d77, #ffaf7b);
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
+  margin-bottom: 20px;
+}
+
+h1, h2 {
+  margin: 20px 0 10px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.skill-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skill-list li {
+  background: #ddd;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  background: #333;
+  color: white;
+  padding: 20px 0;
+}
