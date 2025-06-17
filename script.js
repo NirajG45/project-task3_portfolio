@@ -21,7 +21,7 @@ let letter = "";
   currentText = texts[count];
   letter = currentText.slice(0, ++index);
 
-  document.querySelector("h1").textContent = `Hi, I'm Subh — ${letter}`;
+  document.querySelector("h1").textContent = `Hi, I'm Niraj — ${letter}`;
   if (letter.length === currentText.length) {
     count++;
     index = 0;
